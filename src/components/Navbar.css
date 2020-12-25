@@ -1,0 +1,554 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 60px;
+  width: 1700px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+}
+
+.brand_name_logo {
+  margin-left: 0px;
+  position: absolute;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+a:hover,
+.dropdown:hover .dropbtn {
+  background-color: white;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: white;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 180px;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+.news {
+  margin-left: 200px;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 6px;
+  font-size: 14px;
+  /* margin-top:16px; */
+  cursor: pointer;
+  border-color: white;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+  cursor: pointer;
+}
+.navlabar {
+  background-color: white;
+  position: absolute;
+  height: 60 px;
+  width: 100%;
+}
+.arrow {
+  position: absolute;
+  margin-left: 55px;
+  margin-top: -4px;
+  cursor: pointer;
+  animation: rotate 1s infinite;
+}
+.explore {
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+.do {
+  width: 60px;
+
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.search_icon {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.ep {
+  width: 60px;
+
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.camp {
+  width: 60px;
+
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.login {
+  width: 60px;
+
+  position: absolute;
+  margin-left: 1280px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.signup {
+  width: 60px;
+
+  position: absolute;
+  margin-left: 1350px;
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.line {
+  width: 10px;
+
+  position: absolute;
+  margin-left: 1220px;
+
+  color: black;
+  background-color: black;
+}
+#explore__dropdown {
+  height: 500px;
+  width: 1600px;
+  margin-top: 45px;
+  background-color: white;
+  position: absolute;
+  margin-left: -180px;
+  z-index: 3;
+  background: linear-gradient(to top, #f4f4f2 60%, white 40%);
+}
+
+
+
+.hide__content {
+  display: none;
+  animation-name: hide__ani;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+
+
+
+.explore__all__project {
+  z-index: 3;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+
+.explore__top__10__find {
+  z-index: 3;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 530px;
+}
+.explore__teamfavourite {
+  z-index: 3;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 680px;
+}
+.explore__indemandstars {
+  z-index: 3;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 830px;
+}
+.explore__jointheconvo {
+  z-index: 3;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 980px;
+}
+.tech {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 100px;
+  z-index: 3;
+  white-space: nowrap;
+}
+.explore__audio {
+  position: absolute;
+  margin-top: 430px;
+  margin-left: -797px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__camera {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 100px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__education {
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 100px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__energy {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 100px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__fashion {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 100px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__food {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 100px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__health {
+  position: absolute;
+  margin-top: 430px;
+  margin-left: -430px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__home {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 270px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__phone {
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 270px;
+  z-index: 3;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.explore__productivity {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 270px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__transportation {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 270px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__travel {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 270px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__creative {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 470px;
+  z-index: 3;
+  white-space: nowrap;
+}
+.explore__art {
+  position: absolute;
+  margin-top: 325px;
+  margin-left: 470px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__comics {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 470px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__dance {
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 470px;
+  z-index: 3;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.explore__film {
+  position: absolute;
+  margin-top: 515px;
+  margin-left: -610px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__music {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 470px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__photography {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 470px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__podcast {
+  position: absolute;
+  margin-top: 325px;
+  margin-left: 670px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__tabletop {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 670px;
+  z-index: 3;
+}
+.explore__video {
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 670px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__web {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 670px;
+  z-index: 3;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.explore__writing {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 670px;
+  z-index: 3;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.explore__community {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 950px;
+  z-index: 3;
+  white-space: nowrap;
+}
+.explore__culture {
+  position: absolute;
+  margin-top: 325px;
+  margin-left: 950px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__environment {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 950px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__human {
+  position: absolute;
+  margin-top: 375px;
+  margin-left: 950px;
+  z-index: 3;
+  white-space: nowrap;
+
+  font-size: 15px;
+}
+.explore__local {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 950px;
+  z-index: 3;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.explore__wellness {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 670px;
+  z-index: 3;
+  font-size: 15px;
+}
+.explore__tabletop {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 950px;
+  z-index: 3;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.explore:hover{
+  color: red;
+}
+.do:hover{
+  color: red;
+}
+.navlabar{
+  height: 50px;
+}
+#search__bar{
+  position: relative;
+  margin-top: -18px;
+  height: 50px;
+}
+#search__bar input{
+  height: 50px;
+  width: 1583px;
+  border:none;
+ outline: none;
+}
+.search_icon:hover{
+color: red;
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(-45);
+  }
+  100%{
+    transform: rotate(-180);
+  }
+}

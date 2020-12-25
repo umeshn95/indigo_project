@@ -1,0 +1,26 @@
+.whatwedo__img {
+  position: relative;
+}
+.whatwedo__navbar {
+  position: relative;
+  height: 50px;
+}
+.youtube__why__indigo{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.search__dimension{
+    padding-left: 55px;
+   
+}
+.search__icon2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.close__icon{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1550px;
+}
